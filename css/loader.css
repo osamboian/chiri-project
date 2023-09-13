@@ -1,0 +1,26 @@
+@charset "utf-8";
+body {
+	overflow: hidden;
+}
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#FFF;
+	z-index:99999; 
+}
+
+#status {
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:50%; 
+	top:50%; 
+	background-image:url("https://media.giphy.com/media/9D2iQLabobsME/source.gif");
+	z-index:9999; 
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; 
+}
